@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Đăng nhập | Adeptus</title>
+	<link rel="icon" type="image/x-icon" href="image/logo 1.png">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dangnhap.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="float-button d-m-none">
+			<ul>
+				<li><a href="canhan.html"><img src="image/personal.svg"></a></li>
+				<li><a href="#"><img src="image/cart.svg"></a></li>
+				<li><a href="#"><img src="image/ticket.svg"></a></li>
+				<li><a href="#"><img src="image/chatr.svg"></a></li>
+			</ul>
+		</div>
+		<header>
+			<div class="container-lg container-lg-tb on">
+				<div class="row align-items-center">
+					<div class="col-3 col-sm-3">
+						<div class="logo">
+							<a href="index.html">
+								<img src="image/logo desktop.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-9 col-sm-9">
+						<nav class="menu" id="myLinks">
+							<a href="index.html">TRANG CHỦ</a>
+							<a href="khampha.html">KHÁM PHÁ</a>
+							<a href="congviec.html">CÔNG VIỆC</a>
+							<a href="#">KHÓA HỌC</a>
+							<a class="active-menu" href="dangnhap.html">ĐĂNG NHẬP</a>
+							<ul class="right-menu row">
+								<a href="#"><img src="image/noti.png" alt=""></a>
+								<a href="#"><img src="image/heart.png" alt=""></a>
+							</ul>
+							<a href="javascript:void(0);" onclick="myFunction()" class="close d-none d-m-block">X</a>
+						</nav>
+	
+						<div class="nav-mb text-sm-right">
+							<a href="javascript:void(0);" onclick="myFunction()"><img src="image/navmb.png" alt=""></a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--		main-->
+		<main class="mb-110">
+			<div class="container-lg1 login d-m-none">
+				<div class="row pt-11 ">
+					<div class="col-12 relative">
+						<div class="container1" id="container">
+							<div class="form-container col-sm-12 sign-up-container">
+								<form class="form3" action="#">
+									<span class="h5 text-primary">Create Account</span>
+									<input type="text" placeholder="Name" />
+									<input type="password" placeholder="Password" />
+									<input type="text" placeholder="Email" />
+									<input type="text" placeholder="Address" />
+									<input type="text" placeholder="Phone Number" />
+									<button class="text-16-rg button7 mt-4">Sign Up</button>
+								</form>
+							</div>
+							<div class="form-container col-sm-12 sign-in-container">
+								<form class="form3" action="#">
+									<span class="h5 text-align-center text-primary">Sign in</span>
+									<input type="text" placeholder="Phone Number" />
+									<input type="text" placeholder="Email" />
+									<input type="password" placeholder="Password" />
+									<a href="#" class="text-18-regular pt-4 pb-4">Forgot your password?</a>
+									<button class="text-16-rg button7">Sign In</button>
+								</form>
+							</div>
+							<div class="overlay-container">
+								<div class="overlay">
+									<div class="overlay-panel overlay-left">
+										<span class="h5">Welcome Back!</span>
+										<span class="text-16-rg">To keep connected with us please login<br> with your
+											personal info</span>
+										<button class="ghost mt-6 text-16-rg button7" id="signIn">Sign In</button>
+									</div>
+									<div class="overlay-panel overlay-right">
+										<span class="h5">Hello, Friend!</span>
+										<span class="text-16-rg">Enter your personal details and start journey with
+											us</span>
+										<button class="ghost mt-6 text-16-rg button7" id="signUp">Sign Up</button>
+									</div>
+								</div>
+							</div>
+
+							
+						</div>
+						<div class="iconright text-align-center">
+							<a>
+								<ion-icon name="logo-google"></ion-icon>
+							</a><br>
+							<a>
+								<ion-icon name="logo-facebook"></ion-icon>
+							</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Mobile -->
+			<div class="d-none d-m-block">
+				<div class="container">
+					<div class="login-mb">
+						<div class="tab row justify-center">
+							<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">SIGN UP</button>
+							<span>/</span>
+							<button class="tablinks" onclick="openCity(event, 'Paris')">SIGN IN</button>
+	
+						  </div>
+						  
+						  <div id="London" class="tabcontent">
+							<div class="">
+								<form class="signin-mb text-align-center" action="#">
+									<input type="text" placeholder="Name" />
+									<input type="password" placeholder="Password" />
+									<input type="text" placeholder="Email" />
+									<input type="text" placeholder="Address" />
+									<input type="text" placeholder="Phone Number" />
+									<button class="text-16-rg button7 mt-4">Sign Up</button>
+								</form>
+							</div>
+						  </div>
+						  
+						  <div id="Paris" class="tabcontent">
+							<form class="signin-mb text-align-center" action="#">
+								<input type="text" placeholder="Phone Number" />
+								<input type="text" placeholder="Email" />
+								<input type="password" placeholder="Password" />
+								<a href="#" class="text-18-regular pt-4 pb-4">Forgot your password?</a>
+								<button class="text-16-rg button7">Sign In</button>
+							</form>
+						  </div>
+						  
+					</div>
+				</div>
+			</div>
+		
+		</main>
+		<footer>
+			<div class="container-lg container-lg-tb">
+				<div class="row">
+					<div class="col-2">
+						<div class="logo-footer">
+							<a href="#">Adeptus</a>
+						</div>
+					</div>
+					<!-- menu -->
+					<div class="col-2">
+						<div class="menu-footer">
+							<h2 class="text-18">COMPANY</h2>
+							<ul>
+								<li><a href="#">> KHÁM PHÁ</a></li>
+								<li><a href="#">> CÔNG VIỆC</a></li>
+								<li><a href="#">> KHÓA HỌC</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- menu -->
+					<div class="col-2">
+						<div class="menu-footer">
+							<h2 class="text-18">DESIGNER</h2>
+							<ul>
+								<li><a href="#">> KHÁM PHÁ</a></li>
+								<li><a href="#">> CÔNG VIỆC</a></li>
+								<li><a href="#">> KHÓA HỌC</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- menu -->
+					<div class="col-2">
+						<div class="menu-footer">
+							<h2 class="text-18">SUPPORT</h2>
+							<ul>
+								<li><a href="#">> KHÁM PHÁ</a></li>
+								<li><a href="#">> CÔNG VIỆC</a></li>
+								<li><a href="#">> KHÓA HỌC</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="subscrise">
+							<h2 class="">SUBCRISE FOR DROP UPDATES</h2>
+							<input type="emai" placeholder="Email">
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-end">
+					<div class="col-3 col-tb-4">
+						<ul class="social-icon row">
+							<li><a href=""><img src="image/logo-youtube 1.png"></a></li>
+							<li><a href=""><img src="image/logo-twitter 1.png"></a></li>
+							<li><a href=""><img src="image/fb.png"></a></li>
+							<li><a href=""><img src="image/logo-google (2) 1.png"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				Copyright Họ Nguyễn
+			 </div>
+		</footer>
+
+	
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script>
+			const signUpButton = document.getElementById('signUp');
+			const signInButton = document.getElementById('signIn');
+			const container = document.getElementById('container');
+
+			signUpButton.addEventListener('click', () => {
+				container.classList.add("right-panel-active");
+			});
+
+			signInButton.addEventListener('click', () => {
+				container.classList.remove("right-panel-active");
+			});
+		</script>
+		<script>
+			function openCity(evt, cityName) {
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("tabcontent");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablinks");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(cityName).style.display = "block";
+			  evt.currentTarget.className += " active";
+			}
+			
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+			</script>
+</body>
+
+</html>
