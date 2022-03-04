@@ -1,0 +1,533 @@
+@charset "utf-8";
+/* CSS Document */
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 1440px;
+   position: relative;
+   margin: 48px 214px 0 184px;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -60px;
+   padding: 16px 24px;
+   background-color: #F1F0EB;
+   color: #464646;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color:#464646 ;
+   color: #F1F0EB;
+ }
+/* thiết lập style  nút tròn điều khiển*/
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container1 {
+   max-width: 1440px;
+   position: relative;
+   margin: 0 auto;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides1 {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev1, .next1 {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -48px;
+   padding: 16px 24px;
+   background-color: #F1F0EB;
+   color: #464646;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next1 {
+   right: 216px;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev1:hover, .next1:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+/* thiết lập style  nút tròn điều khiển*/
+ .dot1 {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active1, .dot1:hover {
+   background-color: #717171;
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade1 {
+   -webkit-animation-name: fade1;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade1;
+   animation-duration: 1.5s;
+ }
+@-webkit-keyframes fade1 {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade1 {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 90%;
+  background: #F1F0EB;
+  height: 50px;
+	color: #464646;
+}
+
+form.example .button7 {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #F1F0EB;
+  color: #272727;
+  font-size: 17px;
+  border-left: none;
+  height: 50px;
+}
+
+form.example .button7:hover {
+  background: #272727;
+  color:#F1F0EB;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+	box-sizing: border-box;
+}
+.button7 {
+	border: 1px solid #272727;
+	background-color: #272727;
+	color: #F1F0EB;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	transition: transform 80ms ease-in;
+}
+
+.button7:active {
+	transform: scale(0.95);
+}
+
+.button7:focus {
+	outline: none;
+}
+
+.button7.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+h2
+{
+	color: #F1F0EB;
+}
+
+.form3 {
+	background-color: #F1F0EB;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 80px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	width: 100%;
+    height: 31px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #464646;
+    padding: 8px 0px;
+    transition: 0.6s ease-in-out;
+    font-size: 18px;
+    font-family: dosis-regular;
+    background: none;
+}
+
+.container1 {
+	background-color: #fff;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	height: 660px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+.container1.right-panel-active .sign-in-container {
+	transform: translateX(100%);
+}
+
+.sign-up-container {
+	left: 0;
+	width: 50%;
+	opacity: 0;
+	z-index: 1;
+}
+
+.container1.right-panel-active .sign-up-container {
+	transform: translateX(100%);
+	opacity: 1;
+	z-index: 5;
+	animation: show 0.6s;
+}
+
+@keyframes show {
+	0%, 49.99% {
+		opacity: 0;
+		z-index: 1;
+	}
+	
+	50%, 100% {
+		opacity: 1;
+		z-index: 5;
+	}
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+
+.container1.right-panel-active .overlay-container{
+	transform: translateX(-100%);
+}
+
+.overlay {
+	background: #272727;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background-image: url("../image/felicia-chen-2-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+  	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+.container1.right-panel-active .overlay {
+  	transform: translateX(50%);
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+	transform: translateX(-20%);
+}
+
+.container1.right-panel-active .overlay-left {
+	transform: translateX(0);
+}
+
+.overlay-right {
+	right: 0;
+	transform: translateX(0);
+}
+
+.container1.right-panel-active .overlay-right {
+	transform: translateX(20%);
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 76px;
+  display: none;
+}
+.btn-floating.btn-lg .fab, .btn-floating.btn-lg .far, .btn-floating.btn-lg .fas, .btn-group-lg>.btn-floating.btn .fab, .btn-group-lg>.btn-floating.btn .far, .btn-group-lg>.btn-floating.btn .fas {
+    width: 2.8125rem;
+}
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fas {
+    font-weight: 900;
+}
+.button8 {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #F1F0EB;
+    margin: 0rem;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+.form3 a {
+	color: #272727;
+}
+.container1{
+  position: relative;
+}
+.iconright{
+  position: absolute;
+  right: -60px;
+  top: 50px;
+  z-index: 1000;
+}
+.relative{
+  position: relative;
+}
+@media screen and (max-width: 428px) {
+  .login-mb{
+    background-color: #F1F0EB;
+    padding: 50px 42px;
+    color: #272727;
+	height: 660px;
+	  margin-top: 48px;
+  }
+  .login-mb .tab button{
+    font-family: Dosis;
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 23px;
+margin: 0 8px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+background: none;
+border: none;
+  }
+  .login-mb .active{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+  .login-mb .tab{
+    margin-bottom: 55px;
+  }
+  .signin-mb input{
+    width:100%;
+	  height: 50px;
+      box-sizing: border-box;
+      outline:none;
+	  border: none;
+	  border-bottom: 1px solid #464646 ;
+      padding: 8px 0px;
+      transition:0.6s ease-in-out;
+	  font-size:18px;
+	  font-family: dosis-regular;
+	background: none;
+  }
+  .signin-mb a{
+    font-family: Dosis;
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+text-decoration: none;
+color: #272727;;
+display: block;
+margin-top: 48px;
+  }
+}
+@media screen and (max-width: 1024px){
+	.container1 {
+    /* background-color: #fff; */
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+	height: 458px;
+    min-height: 350px;
+}
+	.form3 {
+    background-color: #F1F0EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 32px;
+    height: 100%;
+    text-align: center;
+}
+	.login input {
+    width: 100%;
+    height: 31px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #464646;
+    padding: 8px 0px;
+    transition: 0.6s ease-in-out;
+    font-size: 14px;
+    font-family: dosis-regular;
+    background: none;
+}
+	.h5 {
+    font-size: 24px;
+    font-family: yeseve;
+}
+	.pl-90
+	{
+		padding-left: 90px;
+	}
+	.pr-90
+	{
+		padding-right: 90px;
+	}
+	.container-lg1
+	{
+		max-width: 744px;
+		margin: 0 auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

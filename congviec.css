@@ -1,0 +1,96 @@
+.search-cv{
+    padding: 80px 0;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.cv-studio-khac{
+    padding: 80px 0;
+}
+.hoa-si{
+    padding-bottom: 80px;
+}
+.cv-studio-khac h4{
+    text-align: center;
+}
+.card2
+{
+	/* height: 120px; */
+	/* background-color: aquamarine; */
+    background: #F1F0EB;
+    color: #464646;
+}
+.cty{
+	width: 75px;
+	height: 75px;
+}
+.title-cv{
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 1024px){
+	.text-24{
+		font-size: 16px;
+	}
+	.pt-1-tb
+	{
+		padding-top: 4px;
+	}
+	.justify-center-tb
+	{
+		justify-content: center;
+	}
+	.cty{
+	width: 65px;
+	height: 65px;
+}
+	.row>[class*="col-4"]{
+    padding: 0px;
+}
+	.row>[class*="col-8"]{
+		padding: 0px;}
+		.row>[class*="col-"] {
+    /* padding: 12px; */
+}
+	.col-5-tb
+	{
+		width:41.66% ;
+	}
+.mr-4-tb
+	{
+		margin-right: 32px;
+	}
+	.pr-2-tb{
+		padding-right: 8px;
+	}
+	.gy-12>[class*="col-"] {
+    padding: 12px !important;
+}
+}
+@media screen and (max-width: 428px)
+{
+	.row>[class*="col-4"]{
+    padding: 12px;
+	}
+	.search-cv
+	{
+		padding: 48px 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
